@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  padding: 10px 0 3px 0;
+  font-size: 35px;
+}
+h2 {
+  font-size: 30px;
+}
+h4 {
+  font-size: larger;
+}
+p{
+  font-size: 20px;
+}
+
+
+
+.main-heading {
+  background-color: antiquewhite;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+
+
+
+/*----------------------
+------media query-----
+-----------------------*/
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 25px;
+  }
+}

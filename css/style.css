@@ -20,22 +20,9 @@ p{
 
 
 .main-heading {
-  background-color: antiquewhite;
-}
-.nav-items {
-  display: flex;
-  justify-content: space-around;
-}
-.nav-links {
-  width: 40%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-h1 {
+  background-color: white;
   text-align: center;
 }
-
 
 
 

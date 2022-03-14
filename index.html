@@ -21,41 +21,54 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand text-center" href="#">নরসিংদী<br>বিজ্ঞান কলেজ</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-center" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">প্রচারণা</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-center" href="#">Features</a>
+            <a class="nav-link" href="#">সুবিধাসমূহ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-center" href="#">Pricing</a>
+            <a class="nav-link" href="#">শিক্ষকমন্ডলী</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              অর্জন
             </a>
-            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">ফলাফল</a></li>
+              <li><a class="dropdown-item" href="#">র‍্যাঙ্কিং</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">অন্যান্য</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link">যোগাযোগ</a>
+          </li>
         </ul>
+        <div class="d-flex">
+          <a href="#"><i class="fas fa-user-circle" id="user-icon"></i></a>
+        </div>
       </div>
     </div>
   </nav>
   <!-- navigation end -->
-
   
-  <div class="main-heading">
-    <img class="head-img" src="images/NSC-logo.jpg">
-    <h1>নরসিংদী বিজ্ঞান কলেজ</h1>
-  </div>
+  <section class="main-heading">
+    <div>
+      <img class="head-img" src="images/NSC-logo.jpg">
+      <h1>নরসিংদী বিজ্ঞান কলেজ</h1>
+    </div>
+
+    <div class="text-center">
+      <p><i class="fas fa-city"></i> EIIN: 134201</p>
+      <p></p>
+    </div>
+  </section>
 </header>
 <!--------------------------------
 -------header part end--------
@@ -79,7 +92,12 @@
 ------footer part start-------
 -------------------------------->
 <footer>
+<div>
+  
+  <p><i class="fas fa-briefcase"> Working Hour: 8:00 am - 3:00 pm</i></p>
+  <p><i class="fas fas fa-mobile-alt"> Phone: 01914285969</i></p>
 
+</div>
 </footer>
 <!-------------------------------
 -------footer part end--------
@@ -89,10 +107,11 @@
 
 
 
-
-  <!-- Bootstrap Javascript -->
+  <!-- fontawesome Javascript link -->
+  <script src="https://kit.fontawesome.com/f95ac8211d.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Javascript link-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <!-- created Javascript -->
+  <!-- created Javascript link-->
   <script src="js/main.js"></script>
 </body>
 </html>

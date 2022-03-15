@@ -17,22 +17,51 @@ p{
   font-size: 20px;
 }
 
+.fas {
+  font-size: 22px;
+}
 
+
+
+/*----------------------------
+--------header start--------
+-----------------------------*/
+
+.custom-nav-link:hover {
+  border-top: 8px solid orange;
+}
 
 .main-heading {
-  background-color: white;
+  background: linear-gradient(to right, rgb(235, 235, 235), white, white, white, white, white, white, white, rgb(235, 235, 235));
   text-align: center;
 }
 #user-icon {
   font-size: 40px;
 }
+/*----------------------------
+--------header end---------
+-----------------------------*/
+
+
+
+/*----------------------------
+---------main start----------
+-----------------------------*/
+
+/*----------------------------
+----------main end-----------
+-----------------------------*/
+
 
 
 /*----------------------------
 --------footer start--------
 -----------------------------*/
-.fas {
-  font-size: 22px;
+footer {
+  background: lightgray;
+}
+.footer-details {
+  text-align: center;
 }
 /*--------------------------
 --------footer end--------
